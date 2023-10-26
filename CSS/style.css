@@ -1,50 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;500&display=swap');
+
 *I{
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Manrope', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
 }
 .container{
-    width: 80%;
-    height: 1020px;
+    width: 90%;
+    height: fit-content;
     background-color: #f2f4f6;
     margin: auto;
 }
-
 header{
-    
-    padding: 10px;
-    height: 60px;
     display: flex;
-    gap: 80px;
-    align-items: center;
     justify-content: space-between;
-    background-color: #332ae0;
-
-}
-.nav{
-    margin: auto;
-    align-items: center;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-a:hover{
-    background-color: #fff;
-    padding: 6px 5px;
-    border-radius: 5px;
-    color: #332ae0;
-    font-weight: 400;
-    font-size: 14px;
+    background-color: goldenrod;
+    padding: 10px 5px;
+    height: 50px;
 }
 .logo{
-    font-size: 24px;
-    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+.logo > span{
+    color: white;
+    font-size: 2rem;
     font-weight: 600;
 }
+ul{
+    list-style: none;
+}
+ a:hover{
+    color: gold;
+}
+ul > li{
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: auto;
+}
 
+.one{
+    width: auto;
+    display: flex;
+    color: rgb(80, 67, 138);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 16px;
+    background-color: #0a2a2f;
+    padding: 10px 20px;
+}
+.photos{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    height: fit-content;
+    object-fit: contain;
+}
+.image{
+    height: 0px;
+    width: 250px;
+    object-fit: contain;
+}
+img{
+    height: 100%;
+    width: 100%;
 
+}
+video{
+    width: 50%;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    width: 100%
+}
+
+.txt{
+    color: white;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    
+}
+table{
+    font-size: 16px;
+    color: white;
+    width: 100%;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/woo.jpg);
+
+}
+div h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

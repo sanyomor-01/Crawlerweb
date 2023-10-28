@@ -17,7 +17,7 @@
 }
 .hero{
     display: flex;
-    padding: 0 85px;
+    padding: 0 180px;
     flex-direction: column;
     gap: 74px;
     background-color: #3B5D4F;
@@ -40,7 +40,7 @@ header{
     align-items: center;
 }
 .logo span{
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 500;
 }
 .navigations{
@@ -53,7 +53,7 @@ header{
 nav{
     justify-content: center;
     align-items: flex-start;
-    gap: 16px;
+    gap: 24px;
     display: flex
 }
 nav a{
@@ -85,15 +85,73 @@ nav a.active::before{
 }
 .herocontents{
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    gap: 100px;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-start; 
+}
+.left{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: self-start;
+    height: 252px;
+    width: 40%;
+    gap: 24px;
+    margin: auto;
 }
 .market{
     text-transform: capitalize;
     color: #fff;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 48.98px;
+}
+.text{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+div button {
+    border: none;
+    padding: 9px 16px;
+    width: 120px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.primary{
+    background-color: #FCE928;
+    color: #2F2F2F;
+}
+.primary:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    width: 120px;
+    color: #fff;
+    font-size: 16px;
+    padding: 9px 16px;
+    border-radius: 25px;
+
+}
+.secondary{
+    padding: 8px 16px;
+    color: #fff;
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    
+}
+.sofa{
+    height: 300px;
+    width: 50%;
+    object-fit: contain;
+}
+div img{
+    height: 100%;
+    width: 100%;
 }

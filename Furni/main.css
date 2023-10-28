@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family:'Noto Sans', sans-serif;
 }
 .main-container{
@@ -18,19 +19,81 @@
     display: flex;
     padding: 0 85px;
     flex-direction: column;
+    gap: 74px;
     background-color: #3B5D4F;
     height: 500px;
 
 }
 header{
+    position: relative;
+    top: 0;
     color: #fff;
     margin-top: 25px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
 }
 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo span{
+    font-size: 24px;
+    font-weight: 500;
+}
+.navigations{
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30px;
+    gap: 60px;
+}
+nav{
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    display: flex
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav a.active::before{
+    content: "";
+    bottom: 2px;
+    position: absolute;
+    height: 5px;
+    width: 45px;
+    border-radius: 5px;
+    background-color:#FCE928 ;
     
+}
+.icons{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 24px;
+    gap: 24px;
+
+}
+ nav a:hover{
+     color: #FCE928;
+}
+.herocontents{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.market{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.98px;
 }

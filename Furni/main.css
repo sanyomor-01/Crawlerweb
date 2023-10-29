@@ -174,11 +174,18 @@ div img{
     height: 100%;
     width: 100%;
 }
-.chairs{
+.chairs_section{
+    margin-top: 30px;
     display: flex;
-    justify-content:space-between;
-    align-items: flex-start;
-    margin: 0 180px;
+    padding: 0 180px;
+    flex-direction: column;
+}
+.chairs{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: px;
 }
 .txtcard{
     display: flex;
@@ -196,5 +203,32 @@ div p{
     color: #6D6F6E;
     font-size: 16px;
 }
+.cards{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.photo{
+    width: 226px;
+    height: 217px;
+    object-fit: contain;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
 
-
+.name_price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.name_price h3{
+    font-size: 16px;
+    font-weight: 600;
+}

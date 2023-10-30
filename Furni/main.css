@@ -7,9 +7,12 @@
     font-family:'Noto Sans', sans-serif;
 }
 .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
     width: 100%;
     margin: auto;
-    background-color:#F0F2F1;
+    background-color:#eff2f1;
 }
 .main-contents{
     display: flex;
@@ -167,8 +170,8 @@ div button {
     
 }
 .sofa{
-    height: 400px;
-    width: 50%;
+    height: 500px;
+    width: 55%;
     object-fit: contain;
 }
 div img{
@@ -410,7 +413,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(27, 1fr);
     width: 50%;
-    height: 700px;
+    height: 600px;
 }
 .designs div img{
     border-radius: 15px;
